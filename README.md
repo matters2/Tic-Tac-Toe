@@ -1,5 +1,8 @@
 GA Software Engineering Immersive - Project 1 
+
 Developer: Matters2
+
+<img src="Gamescreen.jpg" width="300" height="300">
 
 
 
