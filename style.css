@@ -179,7 +179,7 @@ footer {
     font-family: Permanent Marker;
     text-align: center;
     padding: 20px;
-    margin-top: 35px;
+    margin-top: 10px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     color: rgba(255, 100, 70, 0.8);
     transition: transform 0.3s;
