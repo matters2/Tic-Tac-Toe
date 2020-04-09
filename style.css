@@ -22,7 +22,7 @@ body {
     grid-template-columns: repeat(3, auto);
     justify-items: center;
     align-items: center;
-    background-color: ivory;
+    background-color: white;
     margin:auto;
     border: 3px solid black;
 }
