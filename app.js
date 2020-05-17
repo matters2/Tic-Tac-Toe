@@ -177,6 +177,24 @@ var isGameWon = function(currentMarker) {
     } 
  }
 
+function playClick(){
+    var audio = document.createElement("audio");
+    audio.src = "sounds/click.mp3";
+    audio.addEventListener("ended", function () {
+        audio.remove();
+    }, false);
+    audio.play();   
+}
+
+function playClick2(){
+    var audio = document.createElement("audio");
+    audio.src = "sounds/mouse_click.mp3";
+    audio.addEventListener("ended", function () {
+        audio.remove();
+    }, false);
+    audio.play();   
+}
+
 //EVENTS//
 
 boxElements.forEach(function(element) {
@@ -184,3 +202,10 @@ boxElements.forEach(function(element) {
 });
 newGameButton.addEventListener('click', startNewGame);
 restartCounter.addEventListener('click', restartGame);
+
+boxElements.forEach(function(element) {
+    element.addEventListener('click', playClick);
+});
+
+newGameButton.addEventListener('click', playClick2);
+restartCounter.addEventListener('click', playClick2);
