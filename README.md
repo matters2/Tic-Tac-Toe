@@ -2,7 +2,7 @@
 
 <h2>:x:Game: Tic Tac Toe:o:</h2>
 
-<img src="Gamescreen.jpg" width="250" height="250">
+<img src="Gamescreen.jgp" width="250" height="250">
 
 :video_game:Intro:
 Project requirement is to build an interactive front-end Tic Tac Toe game, that has been built with HTML, styled with CSS and programmed with JavaScript.
